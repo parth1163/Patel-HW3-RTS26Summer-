@@ -1,6 +1,7 @@
 # Patel-HW3-RTS26Summer-
 HW 3 — Task design
 [Homework PDF](https://github.com/parth1163/Patel-HW3-RTS26Summer-/blob/2effbb0aea4e6746d4cfd8b9f2c7c162f4bc28d7/HW%203%20%E2%80%94%20Task%20design.pdf)
+Github Link: https://github.com/parth1163/Patel-HW3-RTS26Summer-
 ---
 
 ## Part A — Task Table Analysis
