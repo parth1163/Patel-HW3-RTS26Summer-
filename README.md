@@ -80,3 +80,8 @@ A major difference from FreeRTOS is how memory and tasks are allocated. FreeRTOS
 ### Sources Used
 * [AUTOSAR Classic Platform Standard](https://www.autosar.org/standards/classic-platform)
 * [UL Solutions — AUTOSAR Classic Platform Overview](https://www.ul.com/sis/blog/autosar-part-1-classic-platform)
+* 
+### AI Disclosure
+Accessed June 7,2026:
+I used Gemini to help me clean up the spelling, format the data tables, and convert my PDF into a ReadMe for GitHub. All the actual 
+calculations, designs, and answers are my own work from the assignment.
