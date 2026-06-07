@@ -66,7 +66,7 @@ The task loop should yield using `vTaskDelayUntil` because it eliminates timing 
 ![Theme Park System Concurrency Diagram](https://raw.githubusercontent.com/parth1163/Patel-HW3-RTS26Summer-/5b08007a0f9b74a18b8d3f2a4505c4df04550274/ConcurencyDiagram.png)
 
 ### Shared Resource and Guarding Mechanism
-* **Shared Resource:** A global memory telemetry structure containing live sensor state readings from the seatbelt locks, shared across the `SeatbeltLock`, `EmergencyShutdown`, and `OperatorLogs` tasks. This resource provides concurrent status updates across all three tasks.
+* **Shared Resource:** A global memory telemetry structure containing live sensor state readings from the seatbelt locks, shared across the SeatbeltLock, EmergencyShutdown, and `OperatorLogs tasks. This resource provides concurrent status updates across all three tasks.
 * **Guarding:** **FreeRTOS Mutex** — Since multiple tasks can concurrently access this shared memory segment, a mutex semaphore is implemented to enforce mutual exclusion and guarantee that the telemetry data does not become corrupted during a preemption cycle.
 
 ---
